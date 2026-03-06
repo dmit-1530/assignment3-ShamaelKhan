@@ -156,7 +156,7 @@ footer {
     padding: 4.125rem 0;
 }
 
-/* ***************** Add media query for the 588px screen ***************** */
+/* ***************** Add media query for the 588px Mobile ***************** */
 
 @media (min-width: 588px) {
 
@@ -194,7 +194,7 @@ footer {
     }
 }
 
-/* ***************** Media Query 980px ***************** */
+/* ***************** Media Query 980px Tablet ***************** */
 
 @media (min-width: 980px) {
 
@@ -217,7 +217,7 @@ footer {
 
 }
 
-/* ***************** Media Query 1920px ***************** */
+/* ***************** Media Query 1920px Desktop ***************** */
 
 @media (min-width: 1920px) {
 
