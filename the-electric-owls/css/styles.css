@@ -104,7 +104,7 @@ thead th {
     padding-bottom: 0.6875rem;
 }
 
-table th, 
+table th,
 table td {
     width: 50%;
 }
@@ -158,6 +158,85 @@ footer {
 
 /* ***************** Add media query for the 588px screen ***************** */
 
-/* ***************** footer ***************** */
+@media (min-width: 588px) {
 
-/* ***************** footer ***************** */
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h1 {
+        margin-bottom: 0;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 1.375rem;
+    }
+
+    nav li {
+        margin-bottom: 0;
+    }
+
+    .form-row {
+        display: flex;
+        gap: 0.6875rem;
+    }
+
+    form input[id="email"] {
+        width: auto;
+        margin-bottom: 0;
+    }
+
+    form .btn {
+        width: auto;
+    }
+}
+
+/* ***************** Media Query 980px ***************** */
+
+@media (min-width: 980px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    aside {
+        grid-column: 1 / -1;
+    }
+
+    .btn-center {
+        justify-content: flex-start;
+    }
+
+    footer p {
+        max-width: 60ch;
+    }
+
+}
+
+/* ***************** Media Query 1920px ***************** */
+
+@media (min-width: 1920px) {
+
+    .container {
+        max-width: 1720px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    aside {
+        grid-column: auto;
+    }
+
+    footer .container {
+        text-align: center;
+    }
+
+}
